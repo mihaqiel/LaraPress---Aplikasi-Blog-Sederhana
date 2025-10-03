@@ -73,3 +73,47 @@ Proyek ini dibuat untuk mempelajari dasar-dasar framework **Laravel**, mencakup 
   <a href="/">Kembali ke Halaman Utama</a>
 </body>
 </html>
+
+### 2. Tambahkan Route Baru
+
+Route::get('/about', function () {
+    return view('about');
+});
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+### 3. Buat View About
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tentang Kami - LaraPress</title>
+</head>
+<body>
+  <h1>Tentang LaraPress</h1>
+  <p>LaraPress adalah aplikasi blog sederhana yang dikembangkan menggunakan Laravel 12.</p>
+  <p>Proyek ini dibuat untuk tujuan pembelajaran dan peningkatan keterampilan web development.</p>
+</body>
+</html>
+
+### 4. Buat View Contact
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kontak Kami - LaraPress</title>
+</head>
+<body>
+  <h1>Kontak LaraPress</h1>
+  <p>Nama : Chaerul Cahyadi</p>
+  <p>NPM : 4523210120</p>
+  <p>Email : chaerul4523120@univpancasila.ac.id</p>
+  <p>No. HP : 08976446653</p>
+  <a href="/about">Lihat Halaman Tentang Kami</a>
+  <br>
+  <a href="/">Kembali ke Halaman Utama</a>
+</body>
+</html>
