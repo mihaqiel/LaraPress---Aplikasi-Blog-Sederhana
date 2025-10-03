@@ -108,10 +108,10 @@ Route::get('/contact', function () {
 </head>
 <body>
   <h1>Kontak LaraPress</h1>
-  <p>Nama : Chaerul Cahyadi</p>
+  <p>Nama : Muhammad Naufal Isyrafi</p>
   <p>NPM : 4523210120</p>
-  <p>Email : chaerul4523120@univpancasila.ac.id</p>
-  <p>No. HP : 08976446653</p>
+  <p>Email : isyrafii4523117@univpancasila.ac.id</p>
+  <p>No. HP : 081277306920</p>
   <a href="/about">Lihat Halaman Tentang Kami</a>
   <br>
   <a href="/">Kembali ke Halaman Utama</a>
